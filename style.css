@@ -1,6 +1,67 @@
-/*Style elements for index.html*/
+
 
 body {
     background-color:lightcyan;
     text-align: center;
 }
+
+@font-face {
+    font-family: 'Orbitron', sans-serif;
+    src: url(TiltWarp-Regular-VariableFont_XROT,YROT.ttf)
+}
+
+.web-label {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 75px;
+    font-weight: 1000px; 
+    color:midnightblue;
+}
+
+h1 {
+    font-family: 'Orbitron', "Gothic", Arial;
+    font-size: 40px;
+    font-weight:bolder;
+}
+
+h2 {
+    font-family: 'Orbitron', "gothic", Arial;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+img.diner {
+    width:1000px;
+    height:auto;
+}
+
+.sc-body, .pb-body, .rp-body {
+    text-align:center;
+}
+
+.pbimg {
+    width: 900px;
+    height:auto;
+}
+
+.rpimg {
+    width:900px;
+    height:auto;
+}
+
+a, p, li {
+    font-family: "Monaco", "Copperplate", "Gothic";
+}
+
+.sc-ingred, .sc-steps {
+    display: grid;
+    text-align: left;
+    line-height:2;
+
+}
+
+.pb-ingred, .pb-steps, .rp-ingred, .rp-steps {
+    display: grid;
+    text-align: left;
+    line-height: 2;
+}
+
